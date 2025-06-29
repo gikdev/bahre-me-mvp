@@ -1,0 +1,4 @@
+GET https://api.iran.liara.ir/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NGYwZTZhZTk5ZDJjZTA2MWYyYjliMTYiLCJ0eXBlIjoiYXV0aCIsImlhdCI6MTc1MTIxNTk5OH0.TR4A3q3zxy48yLc5Q7O06uMeQZeqzkK10zxaoyJ6uCE
+
+# Make "Remaining" app!
