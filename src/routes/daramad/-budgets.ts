@@ -9,7 +9,7 @@ export interface Budgets {
 }
 
 export const budgetsAtom = atomWithStorage<Budgets>("budgets", {
-  fun: 100000000,
+  fun: 0,
   help: 0,
   learning: 0,
   main: 0,
