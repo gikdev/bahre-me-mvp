@@ -22,14 +22,14 @@ export default function BudgetCard({ name }: BudgetCardProps) {
   }
 
   const handleChange = () => {
-    const input = prompt("Enter value to change:")
+    const input = prompt("Enter value to change:", "0")
     const newValue = Number.isNaN(Number(input)) ? 0 : Number(input)
     changeBudgetByName(newValue)
   }
 
   const handleAddition = () => {
     const currentValue = budgets[name]
-    const input = prompt("Enter value to addition:")
+    const input = prompt("Enter value to add:")
     const newValue = Number.isNaN(Number(input)) ? 0 : Number(input)
     changeBudgetByName(currentValue+newValue)
   }

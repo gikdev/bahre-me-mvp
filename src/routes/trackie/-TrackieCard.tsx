@@ -17,20 +17,20 @@ export default function TrackieCard({ name }: TrackieCardProps) {
 
   const handleSubtraction = () => {
     const currentValue = trackies[name]
-    const input = prompt("Enter value to subtract:")
+    const input = prompt("Enter value to subtract:", "1")
     const newValue = Number.isNaN(Number(input)) ? 0 : Number(input)
     changeBudgetByName(currentValue - newValue)
   }
 
   const handleChange = () => {
-    const input = prompt("Enter value to change:")
+    const input = prompt("Enter value to change:", "0")
     const newValue = Number.isNaN(Number(input)) ? 0 : Number(input)
     changeBudgetByName(newValue)
   }
 
   const handleAddition = () => {
     const currentValue = trackies[name]
-    const input = prompt("Enter value to addition:")
+    const input = prompt("Enter value to add:", "1")
     const newValue = Number.isNaN(Number(input)) ? 0 : Number(input)
     changeBudgetByName(currentValue + newValue)
   }
